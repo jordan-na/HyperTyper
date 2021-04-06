@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [**Jordan Na**](https://github.com/jordan-na)
 
-##Personal Remarks
+## Personal Remarks
 
 <p>This was a fun little project to practice object oriented programming with a bit of GUI and game logic. Being a first<br>
 year computer science student I made do with the free time I had to develop this simple side project.</p>
