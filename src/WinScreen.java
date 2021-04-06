@@ -35,7 +35,7 @@ public class WinScreen extends JPanel {
             }
         });
         try {
-            winSoundStream = AudioSystem.getAudioInputStream(new File("HyperTyperMusic/YouWon.wav"));
+            winSoundStream = AudioSystem.getAudioInputStream(new File("../HyperTyperMusic/YouWon.wav"));
             winSound = AudioSystem.getClip();
             winSound.open(winSoundStream);
         } catch (UnsupportedAudioFileException e) {

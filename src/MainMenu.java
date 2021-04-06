@@ -54,7 +54,7 @@ public class MainMenu extends JPanel {
         add(gameTitle);
         try {
             audioStream = AudioSystem.getAudioInputStream(
-                    new File("HyperTyperMusic/mainmenu.wav"));
+                    new File("../HyperTyperMusic/mainmenu.wav"));
             backgroundMusic = AudioSystem.getClip();
             backgroundMusic.open(audioStream);
         } catch (UnsupportedAudioFileException e) {

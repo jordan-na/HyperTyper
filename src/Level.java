@@ -77,7 +77,7 @@ public class Level extends JPanel implements KeyListener {
             backgroundStream = AudioSystem.getAudioInputStream(new File(audioFileName));
             backgroundMusic = AudioSystem.getClip();
             backgroundMusic.open(backgroundStream);
-            incorrectStream = AudioSystem.getAudioInputStream(new File("HyperTyperMusic/incorrect.wav"));
+            incorrectStream = AudioSystem.getAudioInputStream(new File("../HyperTyperMusic/incorrect.wav"));
             incorrectSound = AudioSystem.getClip();
             incorrectSound.open(incorrectStream);
         } catch (UnsupportedAudioFileException e) {
@@ -131,7 +131,7 @@ public class Level extends JPanel implements KeyListener {
             backgroundStream = AudioSystem.getAudioInputStream(new File(audioFileName));
             backgroundMusic = AudioSystem.getClip();
             backgroundMusic.open(backgroundStream);
-            incorrectStream = AudioSystem.getAudioInputStream(new File("HyperTyperMusic/incorrect.wav"));
+            incorrectStream = AudioSystem.getAudioInputStream(new File("../HyperTyperMusic/incorrect.wav"));
             incorrectSound = AudioSystem.getClip();
             incorrectSound.open(incorrectStream);
         } catch (UnsupportedAudioFileException e) {

@@ -30,10 +30,10 @@ public class HyperTyperWord extends JLabel implements ActionListener {
         y = (int) (Math.random() * 451) + 75;
         setForeground(Color.white);
         try {
-            correctStream = AudioSystem.getAudioInputStream(new File("HyperTyperMusic/correct.wav"));
+            correctStream = AudioSystem.getAudioInputStream(new File("../HyperTyperMusic/correct.wav"));
             correctSound = AudioSystem.getClip();
             correctSound.open(correctStream);
-            incorrectStream = AudioSystem.getAudioInputStream(new File("HyperTyperMusic/incorrect.wav"));
+            incorrectStream = AudioSystem.getAudioInputStream(new File("../HyperTyperMusic/incorrect.wav"));
             incorrectSound = AudioSystem.getClip();
             incorrectSound.open(incorrectStream);
         } catch (UnsupportedAudioFileException e) {
