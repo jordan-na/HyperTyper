@@ -1,0 +1,10 @@
+pill
+fold
+hero
+tick
+pile
+word
+stem
+tidy
+gear
+hall

@@ -1,0 +1,10 @@
+bind
+gown
+deal
+oven
+read
+fill
+heir
+trap
+dive
+band

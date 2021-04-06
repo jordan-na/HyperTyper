@@ -1,0 +1,15 @@
+ruin
+bind
+lost
+fear
+bay
+chip
+wood
+taxi
+hall
+count
+float
+crop
+handy
+trend
+floor

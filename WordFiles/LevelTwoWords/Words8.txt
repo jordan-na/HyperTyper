@@ -1,0 +1,15 @@
+creep
+wave
+line
+cash
+say
+truck
+wheat
+spot
+dog
+law
+area
+outer
+mood
+plane
+plain
