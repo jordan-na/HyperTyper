@@ -1,4 +1,4 @@
-# HyperTyper
+# Project Overview
 
 <p>HyperTyper is a simple GUI 2D game in which words fly across the screen from left to right. The user must type the<br>
 complete word in order to make the words disappear. If the word touches the right side of the screen, a life is deducted.<br>
